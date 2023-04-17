@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/library.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>ViewRegister</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <ul class="items" style="margin-top: -20px;">
+      <li><a href="/">HOME</a></li>
+      <li><a href="/Book/addbook">ADD BOOK</a></li>
+      <li><a href="/Book/view-book">VIEWBOOK</a></li>
+      <li><a href="/Author/addbook/addauthor">ADD AUTHOR</a></li>
+      <li><a href="/Author/view-author">VIEWAUTHOR</a></li>
+      <li><a href="/registerlogin">LOGIN</a></li>
+      <li><a href="/register" class="play">SIGN UP</a></li>
+      <li><a href="/Register/view-register" class="play">VIEWREGISTER</a></li>
+
+
+    </ul>
+  </div>
+  <div class="middle">
+    <div class="gem">
+      <img src="https://toppng.com/uploads/preview/book-icon-book-icon-11563642450he58ixg4u9.png" class="image"
+        alt=""></i><span class="key1">Library app </span>
+    </div>
+    <div class="box"></div>
+  </div>
+  <br>
+  <div class="row" style="margin-top: 60px;">
+    <div class="col"></div>
+  </div>
+  <div class="card-deck">
+
+    <!-- for getting data from database and displaying -->
+    <%for(i=0;i<data.length;i++){%>
+      <div class="card" style="height: 300px; width: 100px; background: rgb(17, 134, 231);">
+        
+        <div class="card-body">
+          <h4 class="card-title">
+            <%= data[i].name%>
+          </h4>
+          <h5 class="card-text">
+            <%= data[i].email%>
+          </h5>
+          <h5 class="card-text">
+            <%= data[i].place%>
+          </h5>
+          <h5 class="card-text">
+            <%= data[i].address%>
+          </h5>
+          <h5 class="card-text">
+            <%= data[i].phone%>
+          </h5>
+        </div>
+        <div> 
+           <!--To add js in the  ejs files  -->
+          <a href="/Register/delete-register/<%=data[i]._id%>"><button style="background-color: blueviolet;">DELETE</button></a>
+          <a href=""><button style="background-color: rgb(6, 142, 22);">EDIT</button></a>
+        </div>
+      </div>
+      <%}%>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+

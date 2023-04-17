@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/library.css">
+    <title>Add Author</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="items">
+            <li><a href="/">HOME</a></li>
+            <li><a href="/Book/addbook">ADD BOOK</a></li>
+            <li><a href="/Book/view-book">VIEWBOOK</a></li>
+            <li><a href="/Author/addbook/addauthor">ADD AUTHOR</a></li>
+            <li><a href="/Author/view-author">VIEWAUTHOR</a></li>
+            <li><a href="/registerlogin">LOGIN</a></li>
+            <li><a href="/register" class="play">SIGN UP</a></li>
+            <li><a href="/Register/view-register" class="play">VIEWREGISTER</a></li>
+
+
+        </ul>
+    </div>
+    <div class="middle">
+        <div class="gem">
+            <img src="https://toppng.com/uploads/preview/book-icon-book-icon-11563642450he58ixg4u9.png" class="image"
+                alt=""></i><span class="key1">Library app</span>
+        </div>
+        <div class="box"></div>
+    </div>
+    <div
+        style="background-color: rgb(240, 233, 25); height: 550px; width: 700px; margin-left: 400px; margin-top: 100px; border: 5px solid black;">
+
+        <form action="/Author/save-author" method="post" enctype="multipart/form-data">
+            <center>
+                <br>
+                <img src="/images/book author.jpg" style="height: 200px; width: 200px;" alt=""><br> <br>
+                <label style="margin-left:-50px;">Author Name:</label>
+                <input type="text" name="title" placeholder="Enter authorname" required style="height: 30px; width: 300px;"><br>
+                <br>
+                <label style="margin-left:-25px;">Author Email Id:</label>
+                <input type="email" name="category" placeholder="Enter category" required style="height: 30px; width: 300px;"><br>
+                <br>
+                <label style="margin-left:-60px;">Author Place:</label>
+                <input type="text" name="Book" placeholder="Enter the bookname" required style="height: 30px; width: 300px;">
+                <br><br>
+                <label style="margin-left:-60px;">Image:</label>
+                <input type="file" name="image" required  style="height: 30px; width: 300px; background: rgb(252, 252, 252);"><br><br>
+                <input type="submit" value="Add" style="background: rgb(197, 49, 49); height: 30px; width: 100px;">
+            </center>
+        </form>
+
+
+
+
+    </div>
+
+</body>
+
+</html>

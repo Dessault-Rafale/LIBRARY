@@ -1,0 +1,246 @@
+*{
+    padding:0;
+    margin: 0;
+    
+    
+}
+.image{
+    height: 70px;
+    width: 70px;
+    color: white;
+    background: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+body{
+    background: rgb(159, 153, 153);
+    min-height: 1000px;
+}
+#key2{
+    margin-left: 100px;
+    color: white;
+   
+
+}
+.navbar{
+    width:100%;
+    height:30px;
+    background-color: rgb(7, 7, 133);
+    padding: 10px;
+}
+.items{
+    color:white;
+    display: flex;
+    list-style-type: none;
+    margin-left:30px;
+    padding: 10px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(253, 253, 253);
+    margin-right: 20px;
+    font-size: 18px;
+    
+    
+    
+
+}
+.middle{
+    width:100%;
+    height: 170px;
+    background-color:rgb(25, 2, 78);
+    padding: 10px;
+}
+.key1{
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 900;
+    margin-left: 20px;
+    
+}
+.key2{
+    background-color: white;
+}
+.gem{
+    margin-left: 20px;
+    padding:10px;
+    margin-top: 30px;
+}   
+.box{
+    height: 100px;
+    width: 255px;
+    background: rgb(7, 7, 133);
+    margin-top: -100px;
+    margin-left: 1182px;
+}
+.center{
+    width:90%;
+    height:600px;
+    background-color:rgb(253, 253, 253);
+    margin-left: 63px;
+    margin-top: -30px;
+    padding: 10px;
+}
+.play:hover{
+    
+    background: rgb(21, 2, 65);
+}
+.menu1{
+    margin-left: 20px;
+}
+/* .get1{
+    height:32px;
+    width:32px;
+    border-radius: 50%;
+
+} */
+#lock{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}
+
+#load{
+    height: 100px;
+    width:100px;
+    border-radius:50%;
+}
+#rock{
+    height: 100px;
+    width:100px;
+    border-radius:50%;
+}
+.get1{
+    height: 120px;
+    padding:30px;
+    margin-left: 20px;
+}
+.get2{
+    height: 120px;
+    padding:30px;
+    margin-left: 20px;
+}
+.get3{
+    height: 120px;
+    padding:30px;
+    margin-left: 20px;
+}
+.glow1{
+background: rgb(116, 113, 113);
+margin-left: 130px;
+}
+.hours{
+    margin-left: 129px;
+}
+
+.more{
+    background-color: rgb(9, 102, 168);
+    color: white;
+    border: none;
+    margin-left: 1100px;
+    height:30px;
+    width: 70px;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+ .more:hover{
+    background-color: blueviolet;
+    transform: scale(1.5);
+}
+ .google:hover{ 
+    background-color: rgb(152, 14, 104);
+}
+.twitter:hover{
+    background-color: rgb(101, 160, 6);
+}
+.facebook:hover{
+    background-color: rgb(18, 164, 142);
+}
+#owl1{
+    margin-top: -90px;
+    margin-left: 130px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#net{
+    height: 300px;
+    width:300px;
+    margin-left:75px;
+    margin-top:50px;
+    margin-bottom: 10px;
+}
+
+#gem2{
+    padding: 15px;
+    border-radius: 5px;
+}
+#gem4{
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#gem6{
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+#gem3{
+    margin-left:32px;
+}
+.card1{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.card2{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.last{
+    background: rgb(7, 7, 133);
+    height: 80px;
+    padding: 10px;
+    margin-top: 35px;
+    
+}
+.follow{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+.twitter{
+    background: rgb(8, 154, 37);
+    margin-left: 200px;
+    border: none;
+    height: 30px;
+    width: 70px;
+    color: white;
+    margin-top: -30px;
+}
+.facebook{
+    background: rgb(14, 32, 197)    ;
+    border: none;
+    height: 30px;
+    width: 70px;
+    color: white;
+}
+
+.google{
+background: rgb(192, 12, 12);
+border: none;
+height: 30px;
+width: 70px;
+color: white;
+
+}
+.threeboxes{
+    margin-top: -20px;
+}
+
+
+
+
+
+
